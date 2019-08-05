@@ -279,3 +279,10 @@ textarea {
 a.title {
   color: pink;
 }
+body {
+  background-image: url("../img/smiley4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  height: 800px;
+}
