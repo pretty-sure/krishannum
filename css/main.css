@@ -282,7 +282,10 @@ a.title {
 body {
   background-image: url("../img/smiley4.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: 40%;
-  height: 800px;
+  max-height: 100%;
+   /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
 }
